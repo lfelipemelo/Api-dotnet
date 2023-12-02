@@ -17,6 +17,7 @@ namespace Exo.WebApi.Repositories
         {
             return _context.Projetos.ToList();
         }
+
         // Código novo que completa o CRUD.
         public void Cadastrar(Projeto projeto)
         {
