@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 namespace Exo.WebApi.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class ProjetosController : ControllerBase
